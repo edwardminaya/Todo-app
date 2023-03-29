@@ -22,3 +22,9 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+#Todo List Application Ruby on Rails and Bootstrap
+
+This is a simple to do app to get familiar with building a fullstack rails application. The app gives users the ability to create, edit, update and delete todo task as well as marking them complete. 
+
+### 
