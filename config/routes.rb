@@ -10,5 +10,5 @@ Rails.application.routes.draw do
   get "/logout" => "sessions#destroy"
 
   #Todo
-  get "/todos" => "todos#index"
+  resources :todos
 end

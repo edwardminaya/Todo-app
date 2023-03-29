@@ -1,0 +1,7 @@
+<h1>Todo List</h1>
+<% @todos.each do |todo| %>
+  <h2>Title: <%= todo.title %></h2>
+  <p>deadline: <%= todo.deadline %></p>
+  <p>completed: <%= todo.completed %></p>
+  <p>Category: <%=Category.find_by(id:CategoryTodo.find_by(todo_id: todo.id).category_id).name%></p>
+<% end %>
